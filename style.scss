@@ -1,0 +1,184 @@
+@import "_variables.scss";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 2px solid $lightgray;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+button {
+    cursor: pointer;
+}
+
+header>.gora {
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 2fr;
+    grid-template-rows: 1fr;
+
+
+    .napis {
+        grid-column: 1;
+        font-size: large;
+    }
+
+    .login {
+        grid-column: 2;
+    } 
+
+    .login button {
+        color: $lightgray;
+        background-color: black;
+        border: 0;
+        border-radius: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .search {
+        grid-column: 3;
+    }
+
+    input[type="text"] {
+        border-radius: 2em;
+        width: 50em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+      } 
+    
+
+    .przyciskitop {
+        grid-column: 4;
+    }
+}
+
+.cookie {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid $lightgray;
+    border-radius: 1em;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+
+    .secondary button {
+        margin-left: 1em;
+        white-space: nowrap;
+        background-color: $lightgray;
+        border-radius: 2em;
+        border: 0ch;
+        padding: 1em;
+        font-weight: bold;
+    }
+
+    a {
+        color: black;
+        font-weight: bold;
+        text-decoration: 0;
+    }
+}
+
+
+
+.content {
+    .column {
+      > .pic {
+        background-color: $pic-background;
+        border-radius: 1.5625rem;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      &:first-of-type {
+        > .pic {
+          &:first-of-type { height: 14rem; }
+          &:nth-of-type(2) { height: 20rem; }
+          &:nth-of-type(3) { height: 23rem; }
+          &:nth-of-type(4) { height: 17rem; }
+          &:nth-of-type(5) { height: 19rem; }
+          &:nth-of-type(6) { height: 16rem; }
+        }
+      }
+      &:nth-of-type(2) {
+        > .pic {
+          &:first-of-type { height: 18rem; }
+          &:nth-of-type(2) { height: 20rem; }
+          &:nth-of-type(3) { height: 18rem; }
+          &:nth-of-type(4) { height: 19rem; }
+          &:nth-of-type(5) { height: 16rem; }
+          &:nth-of-type(6) { height: 20rem; }
+        }
+      }
+      &:nth-of-type(3) {
+        > .pic {
+          &:first-of-type { height: 17rem; }
+          &:nth-of-type(2) { height: 23rem; }
+          &:nth-of-type(3) { height: 16rem; }
+          &:nth-of-type(4) { height: 18rem; }
+          &:nth-of-type(5) { height: 14rem; }
+          &:nth-of-type(6) { height: 20rem; }
+        }
+      }
+      &:nth-of-type(4) {
+        > .pic {
+          &:first-of-type { height: 19rem; }
+          &:nth-of-type(2) { height: 16rem; }
+          &:nth-of-type(3) { height: 17rem; }
+          &:nth-of-type(4) { height: 19rem; }
+          &:nth-of-type(5) { height: 16rem; }
+          &:nth-of-type(6) { height: 17rem; }
+        }
+      }
+      &:nth-of-type(5) {
+        > .pic {
+          &:first-of-type { height: 17rem; }
+          &:nth-of-type(2) { height: 19rem; }
+          &:nth-of-type(3) { height: 18rem; }
+          &:nth-of-type(4) { height: 14rem; }
+          &:nth-of-type(5) { height: 15rem; }
+          &:nth-of-type(6) { height: 17rem; }
+        }
+      }
+      &:nth-of-type(6) {
+        > .pic {
+          &:first-of-type { height: 15rem; }
+          &:nth-of-type(2) { height: 17rem; }
+          &:nth-of-type(3) { height: 19rem; }
+          &:nth-of-type(4) { height: 14rem; }
+          &:nth-of-type(5) { height: 20rem; }
+          &:nth-of-type(6) { height: 18rem; }
+        }
+      }
+    }
+  }
+
+  .two-buttons {
+    position: fixed;
+    bottom: 50em;
+    right: 3em;
+  }
+
+  .button1last button i {
+    font-size: 36px;
+    padding: 2em;
+  }
+
+  .button2last button i {
+    font-size: 36px;
+    padding: 2em;
+  }
+  
