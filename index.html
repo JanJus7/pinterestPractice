@@ -1,93 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" </head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
 <body>
-    <header>
-        <div class="gora">
-            <span class="napis">
-                <i class="fab fa-pinterest"></i>
-            </span>
-            <span class="login">
-                <button type="submit">Strona główna</button>
-            </span>
-            <span class="search">
-                <form>
-                    <input type="text" placeholder="Search...">
-                </form>
-            </span>
-            <span class="przyciskitop">
-                <span class="button1">
-                    <button type="submit"><i class="fa-solid fa-bell"></i></button>
-                </span>
-                <span class="button2">
-                    <button type="submit"><i class="fa-solid fa-comment"></i></button>
-                </span>
-                <span class="button3">
-                    <button type="submit">A</button>
-                </span>
-            </span>
+  <header>
+    <div class="left">
+      <i class="fab fa-pinterest"></i>
+      <button class="main-page">Strona główna</buttton>
+    </div>
+      <input type="text" name="search" id="search" placeholder="Szukaj" />
+    <div class="right">
+      <button>
+        <i class="fa-solid fa-bell"></i>
+      </button>
+      <button>
+        <i class="fa-solid fa-comment"></i>
+      </button>
+      <button class="A">
+        <div>
+          A
         </div>
-    </header>
-    <div class="cookie">
-        <span class="tekstcookie">Używamy plików cookie, aby wyświetlać spersonalizowane reklamy i treści oraz
-            analizować ruch w naszej witrynie. Więcej informacji znajdziesz w naszym dokumencie <a href="#"> Zasady
-                dotyczące plików cookie.</a></span>
-        <span class="secondary"> <button type="submit">Zaakceptuj wszystkie</button></span>
-        <span class="secondary"> <button type="submit">Odrzuć wszystkie</button></span>
-        <span class="secondary"> <button type="submit">Chcę wybrać samodzielnie</button></span>
+      </button>
     </div>
-    <div class="content">
-        <div class="column">
-            <div class="pic pic-1"></div>
-            <div class="pic pic-2"></div>
-            <div class="pic pic-3"></div>
-            <div class="pic pic-4"></div>
-            <div class="pic pic-5"></div>
-            <div class="pic pic-6"></div>
-            <div class="pic pic-1"></div>
-            <div class="pic pic-2"></div>
-            <div class="pic pic-3"></div>
-            <div class="pic pic-4"></div>
-            <div class="pic pic-5"></div>
-            <div class="pic pic-6"></div>
-            <div class="pic pic-1"></div>
-            <div class="pic pic-2"></div>
-            <div class="pic pic-3"></div>
-            <div class="pic pic-4"></div>
-            <div class="pic pic-5"></div>
-            <div class="pic pic-6"></div>
-            <div class="pic pic-1"></div>
-            <div class="pic pic-2"></div>
-            <div class="pic pic-3"></div>
-            <div class="pic pic-4"></div>
-            <div class="pic pic-5"></div>
-            <div class="pic pic-6"></div>
-            <div class="pic pic-1"></div>
-            <div class="pic pic-2"></div>
-            <div class="pic pic-3"></div>
-            <div class="pic pic-4"></div>
-            <div class="pic pic-5"></div>
-            <div class="pic pic-6"></div>
-            <div class="pic pic-1"></div>
-            <div class="pic pic-2"></div>
-            <div class="pic pic-3"></div>
-            <div class="pic pic-4"></div>
-            <div class="pic pic-5"></div>
-            <div class="pic pic-6"></div>
-        </div>
-    </div>
-    <div class="two-buttons">
-        <div class="button1last"><button type="submit"><i class="fa-solid fa-plus"></i></i></button></div>
-        <div class="button2last"><button type="submit"><i class="fa-solid fa-question"></i></button></div>
-    </div>
-</body>
+  </header>
 
+  <div class="cookies">
+    <div class="info">
+      Używamy plików cookie, aby wyświetlać spersonalizowane reklamy i treści oraz analizować ruch w naszej witrynie. Więcej informacji znajdziesz w naszym dokumencie <a href="#">Zasady dotyczące plików cookie.</a>
+    </div>
+    <div class="right">
+      <button class="secondary">Zaakceptuj wszystkie</button>
+      <button class="secondary">Odrzuć wszystkie</button>
+      <button class="secondary">Chcę wybrać samodzielnie</button>
+    </div>
+  </div>
+
+  <div class="fixed">
+    <button><i class="fa-solid fa-plus"></i></button>
+    <button><i class="fa-solid fa-question"></i></button>
+  </div>
+
+  <div class="content">
+    <div class="column">
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+    </div>
+    <div class="column">
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+    </div>
+    <div class="column">
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+    </div>
+    <div class="column">
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+    </div>
+    <div class="column">
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+    </div>
+    <div class="column">
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+      <div class="pic"></div>
+    </div>
+  </div>
+</body>
 </html>
